@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package spendreport;
+package stream.spendreport;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -27,6 +27,13 @@ import org.apache.flink.walkthrough.common.source.TransactionSource;
 
 /**
  * Skeleton code for the datastream walkthrough
+ *
+ * 流处理
+ * https://ci.apache.org/projects/flink/flink-docs-release-1.10/zh/getting-started/walkthroughs/datastream_api.html
+ *
+ * 批处理
+ * https://ci.apache.org/projects/flink/flink-docs-release-1.10/zh/dev/batch/examples.html
+ *
  */
 public class FraudDetectionJob {
 	public static void main(String[] args) throws Exception {
